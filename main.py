@@ -8,7 +8,7 @@ Original file is located at
 """
 
 from trainer import GPT2TrainerHF
-from data_preparation.py import prepare_data
+from data_preparation import prepare_data
 from config import DATASET_PATH, MODEL_NAME, PROJECT_NAME, OUTPUT_DIR, EPOCHS, BATCH_SIZE, BLOCK_SIZE, EVAL_SIZE
 
 if __name__ == "__main__":
